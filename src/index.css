@@ -1,0 +1,68 @@
+/* Center the header and the navigation links */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+/* Style the h1 element */
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Style the nav and the list items */
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+  display: inline-block;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+/* Style the links */
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+/* Style the cart icon in the top right corner */
+.cart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.cart a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #333;
+}
+form {
+  margin-top: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+p {
+  color: red;
+}
